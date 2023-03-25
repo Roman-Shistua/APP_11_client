@@ -42,7 +42,7 @@ export const AddPostPage = () => {
             </label>
             <div className={classes.img}>
                 {image &&
-                    <img src={URL.createObjectURL(image)} alt="image" />
+                    <img src={URL.createObjectURL(image)} alt={image.name} />
                 }
             </div>
             <label>
